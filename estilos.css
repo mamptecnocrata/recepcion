@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:  #333;
+}
+body {
+    background-image: radial-gradient(olive , #C0C0C0, black);
+}
+div.row {
+    margin-top: 15px;
+}
+div.col-md-6:first-of-type {
+    border-right: 2px dotted green;
+}
+#registro {
+    border:  1px solid #000;
+    border-radius: 10px;
+    box-shadow: 6px 7px 4px rgb(180 180 150 / 75%), -6px 7px 4px rgb(180 180 150 / 75%);
+}
+div.label {
+    width: 160px;
+    float: left;
+    padding-left:  10px;
+}
+div.input {
+    width: 250px;
+    float: left;
+}
+hr {
+    content:  "";
+    clear: both;
+}
+#motivo {
+    margin-top: 15px;
+}
+h1, #results {
+    color: #E0E0E0;
+}
